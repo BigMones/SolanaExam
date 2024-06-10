@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.92.3",
+    "@types/node": "^20.14.2",
+    "bigint-buffer": "^1.1.5",
+    "bs58": "^5.0.0",
+    "fs": "^0.0.1-security",
+    "ts-node": "^10.9.2"
+  },
+  "name": "solana",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "keycreate": "ts-node ./src/keygen.ts",
+    "airdrop": "ts-node ./src/airdrop.ts",
+    "transfer": "ts-node ./src/transfer.ts",
+    "spl_init": "ts-node ./src/spl_init.ts",
+    "spl_mint": "ts-node ./src/spl_mint.ts",
+    "spl_transfer": "ts-node ./src/spl_transfer.ts"
+  },
+  "author": "MMMarella",
+  "license": "ISC",
+  "description": "Base Solana Workshop",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
